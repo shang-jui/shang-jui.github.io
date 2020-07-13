@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	html {
+		height: 100%;  
+		}
+	body {
+		background: #eee;
+		font-family:微軟正黑體;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 26px;
+		padding-bottom: 50px;
+		}
+	.container{
+		max-width: 700px;   
+		background: #fff;
+		margin: 0px auto 0px; 
+		/box-shadow: 1px 1px 2px #DAD7D7;/
+		border-radius: 3px;  
+		padding: 40px;
+		margin-top: 50px;
+		position:relative;
+		}
+	.header {
+		margin-bottom: 30px;
+		}
+	.full-name {
+		font-size: 40px;
+		text-transform: capitalize;
+		position:absolute;left:250px;top:40px;
+		}
+	.first-name{font-weight: 700}
+	.last-name {font-weight: 150}
+	.contact-info{ 
+		position:absolute;left:250px;top:80px
+		}
+	.email{
+		color: #999;
+		font-weight: 200;
+		font-size:14px
+		}
+	.separator {
+		height: 10px;
+		display: inline-block;
+		border-left: 2px solid #999;
+		margin: 0px 10px;
+		}		
+	.phone{
+		color: #999;
+		font-weight: 200;
+		font-size:14px
+		}
+	.introduction{
+		position:absolute;left:250px;top:110px;
+		width:400px;
+		height:0px
+		}
+	.self-introduction{
+		font-size:20px;
+		font-weight:bold;
+		color:#00008b;
+		padding:5px;
+		}
+	.motivation,.title{
+		font-size:20px;
+		font-weight:bold;
+		color:#00008b;
+		padding:5px
+		}
+	.motivation{
+		text-align:center;
+		}
+	.line{
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid brown;
+		}
+	.block{
+		text-align:center;
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+	.content{
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid write;
+		}
+	.goal-name{
+		width:180px;
+		padding:2px;
+		margin:8px;
+		background-color:white;
+		display:inline-block;
+		vertical-align:top;
+		border:1px solid write;
+		}
+	.small-line{
+		width:160px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid brown;
+		}
+	.bar{
+		list-style: none;
+		margin-left:50px;
+		width:530px;
+		}
+	.bar>li {
+		position: relative;
+		}
+	.bar>li:before {
+		content: '\25CF';
+		margin-right: 10px;
+		font-size: 20px;
+		}
+	.bar>li:after {
+		position: absolute;
+		left: 0;
+		top: 0;
+		content: '';
+		border-left: 2px solid black;
+		margin-left: 5px;
+		height: 840%;
+		}
+	.bar>li:first-of-type:after {
+		top: 60%;
+		}
+	.bar>li:last-of-type:after {
+		top: -960%;
+		}
+	.box{
+		position:relative;left:20px;top:0px;
+		margin-left: 40px;
+		}
+	.divider{
+		height: 2px;
+		border-width: 0;
+		background-image: linear-gradient(90deg,
+		transparent 0%,gray 50%,transparent 100%);
+		}
+	
+		</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">
+			<img src="photo.jpg" width="190" height="200" ></img>
+			<div class="full-name">
+			<span class="first-name">Gavin</span> 
+			<span class="last-name">Quo</span>
+			<span class="last-name">(郭上瑞)</span>
+	</div>
+	<div class="contact-info">
+		<span class="email">Email: </span>
+		<span>hn15637648@gmail.com</span>
+		<span class="separator"></span>
+		<span class="phone">Phone: </span>
+		<span>0916-369-062</span>
+		</div>
+	<div class="introduction">
+		<div class=self-introduction>自我介紹:</div>
+		<span>對於自己的人生，想不斷學習、不斷進步，腳踏實地，
+		<b><u><span style=color:red>肯做、肯學、負責任</span></u></b>，是我對自己的要求。不論在學或工作時期，透過不同的磨練及失敗
+		，一次次的學習、成長及充實自己，化為自身技能，期許面臨下一個挑戰時更能全力以赴，不會後悔。
+		</span>
+	</div>
+	<div class="motivation">動機</div>
+	<div class="line"></div>
+	<div class="block"> 經過職場近四年的洗禮，對自己瞭解亦開始對工作有了想法及感覺，
+	我期許自己能不斷進步，經驗能持續累積，技能可以隨時帶走不受產業類別限制，亦不受任何地點都能工作，
+	讓我在轉職過程薪水都是不斷累積而不是停滯不前。軟體工程師是上升的產業，面臨網路大時代的來臨，行業需求量應該只增不減，
+	另隨著時間不斷演進，必須跟隨潮流學習新的技能，符合我期許自己不斷進步的要求，在自學html及css入學基本概念課程期間，
+	每一次的Ｄebug找尋錯誤到成功輸出網頁，達到每個課程及想法的要求，都使我備感興奮及充滿成就感，讓我相信轉職為一名軟體工程師是我現階段最大的目標，
+	亦能在工作與生活之間達成平衡，不會枯燥乏味，能持續看著自己的作品廣泛被使用，未來我想回饋，結合不同領域，成為跨領域之人士。</div>
+	<div class="content">
+		<div class="goal-name">
+			<div class="title">近程目標<span style="font-size:15px">(0.5years)</span>
+				<div class="small-line"></div>
+				</div>
+				<div>踏入程式大門，利用半年時間，成長為一名軟體工程師</div>
+			
+			
+		</div>
+		<div class="goal-name">
+			<div class="title">中程目標<span style="font-size:15px">(~5years)</span>
+				<div class="small-line"></div>
+			</div>
+				<div>能獨自完成專案內容，熟悉各式技巧，且不被潮流淘汰，
+				成長為獨當一面之軟體工程師，亦能帶領其他想轉職的人踏入此領域</div>
+		</div>
+		<div class="goal-name">
+			<div class="title">遠程目標<span style="font-size:15px">(5years~)</span>
+				<div class="small-line"></div>
+			</div>
+				<div>結合不同領域，成為跨領域之人士，利用程式設計與環境顧問工程結合，讓民眾亦能透過網路，了解環境狀況，
+					不再盲目聽從，亦不再當局外人</div>
+					
+		</div>
+		
+	</div>
+	<div class="title">學歷:</div>
+		<ul style="margin-left:50px">
+			<li>中原大學，生物環境工程學系，2012年9月至2016年6月</li>
+			<li>台北市立中崙高中，2009年9月至2011年6月</li>
+		</ul>
+	<div class="title">工作經驗:</div>
+		<ul class="bar">
+			<li style="font-size:17px"><span style="color:blue">AECOM(艾奕康工程顧問股份有限公司)</span>，副工程師，2018-2020。</li>
+				<ul class="box">
+					<li>負責計畫多為科學園區環境監測計畫，包含台中科學園區、
+				台南科學園區、宜蘭科學園區等環境監測。</li>
+					<li>撰寫環境影響評估，包含台泥環評、宜蘭環評、台積竹南環評等，完成各類不同開發案之報告及通過審查。</li>
+					<li>參與科學園區及桃園水環境開發等環境監測及風機及科學園區開發案等環境影響評估之投標準備工作。</li>
+					<li>另自學需運用之程式如:photoshop基本操作、景觀評估，以利報告之撰寫，
+				另因應不同開發案如:風力發電機組開發，透過大量研讀國內外相關報告、調查及文獻，懂得風力
+				機組開發、設置、規格等，另研究生態調查、雷達調查、鳥類撞擊評估等。</li>
+				</ul>
+								
+			<li style="font-size:17px"><span style="color:blue">亞太環境科技股份有限公司</span>，工程師，2016-2018。</li>
+				<ul class="box">
+					<li>負責計畫多為台灣地區港口、高速鐵路及垃圾掩埋場環境監測專案。</li>
+					<li>舉辦各式環境活動及參訪，
+				邀請各地居民、河川巡守隊或與學校合作，將自己所學的環境相關知識，根據參與對象的年齡及活動方式調整課程內容，把活動理念傳達給每一位學員。</li>
+					<li>與縣市環保局合作舉辦緊急污染防治應變演練及淨灘活動，訓練自己能獨自掌管專案內容及時間管理並與業主、
+				合作對象有效溝通，建立合作默契及信任感。亦能獨自向業主匯報，並排解民眾相關之問題。</li>
+				</ul>
+				
+			<li style="font-size:17px"><span style="color:blue">環資國際股份有限公司</span>，實習生，2015/07~2015/09。</li>
+				<span class="box">在暑假期間曾到環資國際公司，擔任實習生，對於環工產業有了更多、更深的了解，因公司主要是負責環境相關平台，
+				開發網頁頁面、數據後端的處理，雖無實質接觸，亦有初步的認識，接觸其他方面的領域，對我都是一種進步、學習和挑戰。</span>
+		</ul>
+		<hr class="divider"></hr>
+		</div>
+	</div>
+</body>
